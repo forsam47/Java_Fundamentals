@@ -1,3 +1,4 @@
+// Console work only. exp: java num4 1 2 3 4
 class backgoargument {
     public static void main(String[] args) {
 
