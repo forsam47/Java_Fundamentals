@@ -1,4 +1,3 @@
-import java.util.ArrayList; //import ArrayList
 class backgoargument {
     public static void main(String[] args) {
 
