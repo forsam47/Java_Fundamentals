@@ -10,7 +10,7 @@ class num4 {
 
             System.out.println("Argument : " + args[i]);
 
-            y =Integer.parseInt(args[i]);  //revert args(string) to integer
+            y =Integer.parseInt(args[i]);  //converting args(string) to integer
             sum+=y;
             mult*=y;
 
