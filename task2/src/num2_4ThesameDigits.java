@@ -1,4 +1,6 @@
-import java.util.Scanner;
+//Sorting by the same digits, exmp 123-wrong '11'2-rite
+
+import java.util.Scanner; //for reading keyboards
 
 class num2_4ThesameDigits {
     public static void main(String[] args) {
