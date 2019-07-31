@@ -27,6 +27,7 @@ class num2_1 {
                 z=k.length();
             }
 
+
         }
         System.out.println("Minimal digit: "+min + "  Digit Length " +d);
         System.out.println("Maximal digit: "+max + "  Digit Length "+ z);
