@@ -12,7 +12,7 @@ class num2_4ThesameDigits {
 
 
         for (int i = 0; i < num.length; i++) {          //Just for entering data
-
+            System.out.print("Enter the number " + (i + 1) + " ");
             // System.out.print("Enter the number " + i + " ");
             num[i] = input.next();
         }
