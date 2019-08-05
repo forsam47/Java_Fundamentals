@@ -4,7 +4,7 @@ import java.util.Scanner; //for reading keyboards
 
 class num2_4ThesameDigits {
     public static void main(String[] args) {
-        int x, y, sum, sum2 = 0;
+        int x, y, sum;
         Scanner input = new Scanner(System.in); //reading from the console
         System.out.print("Enter rows of the Array" + " ");
         x = input.nextInt();                      //reading 'x' from the console
@@ -13,7 +13,7 @@ class num2_4ThesameDigits {
 
         for (int i = 0; i < num.length; i++) {          //Just for entering data
 
-            System.out.print("Enter the number " + (i + 1) + " ");
+            // System.out.print("Enter the number " + i + " ");
             num[i] = input.next();
         }
 
@@ -30,13 +30,11 @@ class num2_4ThesameDigits {
 
                     if (b[lengthArrayB] == ch) {                    //the same digits
                         sum++;
-                        sum2++;
+
                     }
 
                     if (sum == 0) continue;      //Remove digits  '0'. Maybe speeding up code
-                    if (sum2 == 1) {            //Resets the counter if the numbers do not match
-                        sum2 = 0;
-                    }
+
                 }
                 if (sum > 1) {                  //Which digits are more then 1 the same
                     System.out.println(num[y]);
