@@ -1,4 +1,4 @@
-//Sorting by the same digits, exmp 123-wrong '11'2-rite
+//Sorting by the same digits, exmp 123-wrong '11'2-right
 
 import java.util.Scanner; //for reading keyboards
 
