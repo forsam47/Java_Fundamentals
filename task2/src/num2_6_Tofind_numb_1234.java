@@ -62,7 +62,7 @@ public class num2_6_Tofind_numb_1234 {
                 System.out.println("negative: " + numbers[z]);
                 z = numbers.length;
             }
-            Amount = 0;
+            Amount = 0; //Reset the counter
             I = 0;
 
 
